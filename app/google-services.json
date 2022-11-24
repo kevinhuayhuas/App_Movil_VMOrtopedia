@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "37084688174",
+    "project_id": "vmortopediaperu",
+    "storage_bucket": "vmortopediaperu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:37084688174:android:12bef57017e17b620714bf",
+        "android_client_info": {
+          "package_name": "com.huayhuas.vmortopedia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "37084688174-4flsip5f7s0so584lr0aaec1eahp5iqu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGpCfOcLHAAFnJ1XhqA_iIkS8Ro9mezok"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "37084688174-4flsip5f7s0so584lr0aaec1eahp5iqu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
