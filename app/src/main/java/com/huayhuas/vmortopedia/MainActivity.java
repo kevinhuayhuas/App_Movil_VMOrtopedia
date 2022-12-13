@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
 
@@ -19,6 +20,7 @@ import com.google.android.gms.tasks.Task;
 
 public class MainActivity extends AppCompatActivity {
 
+    EditText txtCorreo, txtPasword;
 
     GoogleSignInOptions gso;
     GoogleSignInClient gsc;
@@ -31,6 +33,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         googleBtn= findViewById(R.id.googleBtn);
+        btnIngresar = findViewById(R.id.btnIngresar);
+        txtCorreo = findViewById((R.id.txtCorreo));
+        txtPasword = findViewById((R.id.txtPasword));
 
         gso= new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN).requestEmail().build();
         gsc = GoogleSignIn.getClient(this, gso);
@@ -41,6 +46,25 @@ public class MainActivity extends AppCompatActivity {
                 signIn();
             }
         });
+
+        btnIngresar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                iniciarSesion();
+            }
+        });
+    }
+
+    public void iniciarSesion(){
+        String usuario = txtCorreo.getText().toString().trim();
+        String password = txtPasword.getText().toString().trim();
+        if(usuario.equalsIgnoreCase("kevin.huayhuas@gmail.com") && password.equalsIgnoreCase("hola2022")){
+            Intent intent = new Intent(MainActivity.this,ActivityPrincipal.class);
+            startActivity(intent);
+            Toast.makeText(this, "Bienvenido Kevin", Toast.LENGTH_SHORT).show();
+        }else{
+            Toast.makeText(this, "Verifique el Correo o Contraseña " + usuario +" - "+password, Toast.LENGTH_SHORT).show();
+        }
 
     }
 
@@ -68,6 +92,5 @@ public class MainActivity extends AppCompatActivity {
         finish();
         Intent intent = new Intent(MainActivity.this,ActivityPrincipal.class);
         startActivity(intent);
-
     }
 }

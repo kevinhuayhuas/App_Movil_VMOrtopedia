@@ -36,7 +36,7 @@
         android:text="Email" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/txtCorreo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -53,15 +53,15 @@
         android:textColor="@color/vmortopedia"
         android:text="Password" />
 
+
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/txtPasword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:drawableLeft="@drawable/ic_password"
         android:drawablePadding="7sp"
-        android:text="" />
+        android:drawableLeft="@drawable/ic_password"
+        android:ems="10"
+        android:inputType="textPassword" />
 
     <Button
         android:id="@+id/btnIngresar"

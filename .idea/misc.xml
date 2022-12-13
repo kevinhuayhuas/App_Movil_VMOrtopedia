@@ -4,7 +4,14 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/kevin/AndroidStudioProjects/VMOrtopedia/app/src/main/res/drawable/ic_baseline_perm_identity_24.xml" value="0.2385" />
-        <entry key="..\:/Users/kevin/AndroidStudioProjects/VMOrtopedia/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/kevin/AndroidStudioProjects/VMOrtopedia/app/src/main/res/drawable/ic_menu_camera.xml" value="0.1975" />
+        <entry key="..\:/Users/kevin/AndroidStudioProjects/VMOrtopedia/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.1975" />
+        <entry key="..\:/Users/kevin/AndroidStudioProjects/VMOrtopedia/app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.1975" />
+        <entry key="..\:/Users/kevin/AndroidStudioProjects/VMOrtopedia/app/src/main/res/drawable/ic_password.xml" value="0.1975" />
+        <entry key="..\:/Users/kevin/AndroidStudioProjects/VMOrtopedia/app/src/main/res/layout/activity_agregar_producto.xml" value="0.19202898550724637" />
+        <entry key="..\:/Users/kevin/AndroidStudioProjects/VMOrtopedia/app/src/main/res/layout/activity_detalle_producto.xml" value="0.25" />
+        <entry key="..\:/Users/kevin/AndroidStudioProjects/VMOrtopedia/app/src/main/res/layout/activity_editar_producto.xml" value="0.25" />
+        <entry key="..\:/Users/kevin/AndroidStudioProjects/VMOrtopedia/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/kevin/AndroidStudioProjects/VMOrtopedia/app/src/main/res/layout/activity_navigation.xml" value="0.26875" />
         <entry key="..\:/Users/kevin/AndroidStudioProjects/VMOrtopedia/app/src/main/res/layout/activity_principal.xml" value="0.2546875" />
         <entry key="..\:/Users/kevin/AndroidStudioProjects/VMOrtopedia/app/src/main/res/layout/app_bar_navigation.xml" value="0.26875" />
